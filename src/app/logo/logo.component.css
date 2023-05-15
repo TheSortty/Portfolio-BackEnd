@@ -1,0 +1,60 @@
+div{
+    background-color: #E7CBCB;  
+}
+@font-face {
+    font-family: Dancing;
+    src: url(../../../typography/Dancing/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Alegraya;
+    src: url(../../../typography/Alegraya/AlegreyaSans-BoldItalic.ttf);
+}
+.h1{
+    font-family: Dancing;
+    text-align: center ;
+    margin-left: 870px;
+    margin-top: 20px;
+    position: absolute;
+}
+/*HEADER de #ArgentinaPrograma*/
+#Logo{
+    width: 150px;
+}
+/*Logos de los social*/
+#github{
+    width: 50px;
+    float: right;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+#instagram{
+    width: 50px;
+    padding: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+#linkedin{
+    width: 50px;
+    padding: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+/*Boton del LOGIN*/
+.btn-primary{
+    font-family: Alegraya;
+    height: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+    background-color: #C88EA7;
+    color: black;
+    border-color: #C88EA7;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
