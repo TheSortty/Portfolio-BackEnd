@@ -17,14 +17,14 @@ div{
 }
 .h1{
     font-family: Dancing;
-    text-align: center ;
-    margin-left: 870px;
+    text-align: center;
     margin-top: 20px;
-    position: absolute;
+    position: relative;
 }
 /*HEADER de #ArgentinaPrograma*/
 #Logo{
     width: 150px;
+    position: absolute;
 }
 /*Logos de los social*/
 #github{
@@ -33,6 +33,7 @@ div{
     padding: 5px;
     margin-top: 20px;
     margin-right: 5px;
+    position: relative;
 }
 #instagram{
     width: 50px;
@@ -40,6 +41,7 @@ div{
     float: right;
     margin-top: 20px;
     margin-right: 5px;
+    position: relative;
 }
 #linkedin{
     width: 50px;
@@ -47,6 +49,7 @@ div{
     float: right;
     margin-top: 20px;
     margin-right: 5px;
+    position: relative;
 }
 /*Boton del LOGIN*/
 .btn-primary{
